@@ -153,21 +153,16 @@ h2 {
 
 .logo {
     display: flex;
-    flex-direction: column;
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 700;
+    align-items: center;
 }
 
-.logo-en {
-    color: var(--primary-color);
+.logo img {
+    height: 55px; /* Adjusting the logo height for navbar */
+    transition: transform 0.3s ease;
 }
 
-.logo-ml {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    font-weight: 400;
-    letter-spacing: 0.5px;
+.logo:hover img {
+    transform: scale(1.05);
 }
 
 .nav-links {
