@@ -357,7 +357,7 @@ h2 {
 .product-card {
     background: var(--bg-card);
     border-radius: 16px;
-    padding: 32px;
+    /* Removed padding: 32px so images stretch edge-to-edge */
     box-shadow: 0 10px 30px rgba(0,0,0,0.03);
     transition: var(--transition-smooth);
     border: 1px solid rgba(0,0,0,0.02);
@@ -388,10 +388,7 @@ h2 {
     font-size: 0.95rem;
 }
 
-.product-card:nth-child(3) {
-    padding: 0;
-    grid-column: span 1;
-}
+/* Rule removed as all cards now stretch edge-to-edge */
 
 .product-img {
     height: 200px;
