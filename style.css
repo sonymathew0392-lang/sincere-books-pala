@@ -157,7 +157,7 @@ h2 {
 }
 
 .logo img {
-    height: 55px; /* Adjusting the logo height for navbar */
+    height: 90px;
     transition: transform 0.3s ease;
 }
 
