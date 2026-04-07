@@ -59,6 +59,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Phosphor Icons for easy modern icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -97,7 +99,7 @@
 
     <section id="about" class="about-services">
         <div class="container section-grid">
-            <div class="about-text">
+            <div class="about-text" data-aos="fade-right">
                 <div class="section-badge">About Us</div>
                 <h2>Dedicated to Knowledge and Quality Service</h2>
                 <p>Located in the heart of Pala, Kerala, <strong>Sincere Books & Stationery</strong> is your one-stop destination for all academic, professional, and personal reading and writing needs.</p>
@@ -127,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about-image">
+            <div class="about-image" data-aos="fade-left">
                 <img src="assets/books_category.png" alt="Dictionairies and Reference Books">
             </div>
         </div>
@@ -141,7 +143,7 @@
                 <p>Explore our wide selection of books and stationery to support your academic and professional journey.</p>
             </div>
             
-            <div class="products-grid">
+            <div class="products-grid" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-card">
                     <div class="product-img"><img src="assets/academic_books.png" alt="Academic & Coaching Books"></div>
                     <div class="product-content">
@@ -206,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="reviews-grid">
+            <div class="reviews-grid" data-aos="fade-up">
                 <div class="review-card">
                     <div class="review-header">
                         <div class="reviewer-avatar">D</div>
@@ -252,7 +254,7 @@
 
     <section id="contact" class="contact-section">
         <div class="container section-grid">
-            <div class="contact-info">
+            <div class="contact-info" data-aos="fade-right">
                 <div class="section-badge">Visit Us</div>
                 <h2>Get in Touch</h2>
                 <p>We are conveniently located in Pala, Kerala. Drop by for all your reading and stationery needs.</p>
@@ -282,7 +284,7 @@
                     </div>
                 </div>
             </div>
-            <div class="map-container">
+            <div class="map-container" data-aos="fade-left">
                 <!-- Clean Google Maps embed -->
                 <iframe src="https://maps.google.com/maps?q=Sincere+Books+Pala+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -309,6 +311,13 @@
         </div>
     </footer>
 
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918281872141?text=Hello%20Sincere%20Books,%20I%20am%20looking%20for%20some%20books..." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+    </a>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
