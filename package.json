@@ -1,0 +1,27 @@
+{
+  "name": "sincere-books-pala",
+  "version": "1.0.0",
+  "description": "Sincere Books & Stationery website - Your premier destination for books and stationery in Pala, Kerala",
+  "main": "script.js",
+  "scripts": {
+    "build": "esbuild src/speed-insights.js --bundle --minify --outfile=dist/speed-insights.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonymathew0392-lang/sincere-books-pala.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonymathew0392-lang/sincere-books-pala/issues"
+  },
+  "homepage": "https://github.com/sonymathew0392-lang/sincere-books-pala#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}

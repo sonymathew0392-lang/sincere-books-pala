@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+
+# Build outputs - DO NOT IGNORE (needed for deployment)
+# dist/ is required for the site to work properly
